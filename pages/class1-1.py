@@ -79,3 +79,5 @@ pi = 3.14
 r = input("圓的半徑")
 area = pi * float(r) ** 2  # 計算圓的面積
 print(f"圓的面積是{area}")  # 使用f-string格式化輸出圓的面積
+
+print("test")

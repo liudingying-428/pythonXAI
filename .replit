@@ -1,0 +1,13 @@
+modules = ["python-3.12"]
+# run = "streamlit run main.py"
+run = "python3 pages/class1-1.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "streamlit run main.py"]
+
+[[ports]]
+localPort = 8501
+externalPort = 80
