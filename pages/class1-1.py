@@ -63,3 +63,19 @@ print(float("1.234"))  # 將1.234轉換為浮點數
 print(str(1.234))  # 將1.234轉換為字串
 print(bool(1.234))  # 將1.234轉換為布林值
 # print(int("hello"))  # 將"hello"轉換為整數會報錯
+
+# 輸入輸出
+# a = input("三角形的底")
+# b = input("三角形的高")
+# # 計算三角形的面積
+# area = (int(a) * int(b)) / 2  # 將輸入的底和高轉換為整數並計算面積
+# print(area)  # 顯示三角形的面積
+
+# a = input("姓名")
+# b = input("年齡")
+# print(f"你好，{a}!你今年{b}歲。")  # 使用f-string格式化輸出
+
+pi = 3.14
+r = input("圓的半徑")
+area = pi * float(r) ** 2  # 計算圓的面積
+print(f"圓的面積是{area}")  # 使用f-string格式化輸出圓的面積
